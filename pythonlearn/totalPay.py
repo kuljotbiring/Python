@@ -3,4 +3,4 @@
 
 userHours = input('Enter your hours worked: ')
 userPay = input('Enter the rate per hour: ')
-print('Your total pay today is: ', int(userHours) * int(userPay))
+print('Your total pay today is: ', float(userHours) * float(userPay))
