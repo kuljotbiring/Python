@@ -9,21 +9,21 @@
 
 userGrade = input('Enter a score: ')
 
-float(userGrade)
+userGrade = float(userGrade)
 
-if float(userGrade) > 1.0 or float(userGrade) < 0.0:
+if userGrade > 1.0 or userGrade < 0.0:
     print('Bad score')
 
-elif float(userGrade) >= .9:
+elif userGrade >= .9:
     print('A')
 
 elif float(userGrade) >= .8:
     print('B')
 
-elif float(userGrade) >= .7:
+elif userGrade >= .7:
     print('C')
 
-elif float(userGrade) >= .6:
+elif userGrade >= .6:
     print('D')
 
 else:
