@@ -1,0 +1,15 @@
+# Write a program to prompt the user for hours and rate per
+# hour to compute gross pay. Uses conditionals
+
+userHours = input('Enter your hours worked: ')
+userPay = input('Enter the rate per hour: ')
+
+if float(userHours) > 40:
+    overTime = float(userHours) - 40
+
+    totalPay = (overTime * (float(userPay) * 1.5)) + (40 * float(userPay))
+
+    print('Your total pay today is: ', totalPay)
+
+else:
+    print('Your total pay today is: ', float(userHours) * float(userPay))
