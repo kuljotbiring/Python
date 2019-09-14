@@ -17,7 +17,7 @@ if userGrade > 1.0 or userGrade < 0.0:
 elif userGrade >= .9:
     print('A')
 
-elif float(userGrade) >= .8:
+elif floatuserGrade >= .8:
     print('B')
 
 elif userGrade >= .7:
