@@ -15,7 +15,7 @@ print(favorite_pizzas[1:4])
 # • Print the message The last three items in the list are:. Use a slice to print the
 # last three items in the list.
 print("The last three items in the list are")
-print(favorite_pizzas[2:])
+print(favorite_pizzas[-3:])
 
 # Start with your program from Exercise 4-1
 # (page 56). Make a copy of the list of pizzas, and call it friend_pizzas.
