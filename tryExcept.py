@@ -1,3 +1,5 @@
+# example using try except
+
 inp = input('Enter Fahrenheit Temperature:')
 try:
   fahr = float(inp)
