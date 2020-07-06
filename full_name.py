@@ -1,4 +1,4 @@
-# insert a variable inside of a string
+# inserting a variable inside of a string
 
 first_name = "ada"
 last_name = "lovelace"
