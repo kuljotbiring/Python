@@ -1,4 +1,4 @@
-# program finds the most common word inside a text file.
+# program finds the most common word inside of a text file.
 
 name = input('Enter file:')
 handle = open(name, 'r')
