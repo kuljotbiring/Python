@@ -1,4 +1,4 @@
-# Think of at least three different animals that have a common characteristic.
+# Think of at least three different animals that have some common characteristic.
 # Store the names of these animals in a list, and then use a for loop to
 # print out the name of each animal.
 favorite_animals = ['lion', 'tiger', 'jaguar']
